@@ -5,7 +5,7 @@ mappingDefinitions:
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1
   WORK:
-    database: SHARMA
-    schema: WORKTEST
+    database: PC_COALESCE_DB
+    schema: TEST
 name: TESTING
 type: Environment
