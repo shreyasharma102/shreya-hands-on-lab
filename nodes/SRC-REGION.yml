@@ -1,0 +1,73 @@
+fileVersion: 1
+id: e68400cf-eaa9-4074-bd26-51348e4abb43
+name: REGION
+operation:
+  database: ""
+  deployEnabled: true
+  description: Region data as defined by TPC-H
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3e3b6d2-3a1d-4907-95c0-540886748265
+          stepCounter: e68400cf-eaa9-4074-bd26-51348e4abb43
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: R_REGIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: caabea32-e11b-4b17-bc4a-1495797d822f
+          stepCounter: e68400cf-eaa9-4074-bd26-51348e4abb43
+        config: {}
+        dataType: VARCHAR(25)
+        defaultValue: ""
+        description: ""
+        name: R_NAME
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 672c5fd2-49f2-4318-8be1-158c19d23e58
+          stepCounter: e68400cf-eaa9-4074-bd26-51348e4abb43
+        config: {}
+        dataType: VARCHAR(152)
+        defaultValue: ""
+        description: ""
+        name: R_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: REGION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
