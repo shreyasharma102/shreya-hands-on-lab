@@ -5,7 +5,7 @@ mappingDefinitions:
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1
   WORK:
-    database: PC_COALESCE_DB
-    schema: TEST
+    database: SHARMA
+    schema: WORKPROD
 name: Production
 type: Environment
